@@ -1,7 +1,7 @@
-smile_footprint = '\N{Footprints}'
+name = input('Введите имя : ').title()
 
-user_name = input('Please, enter your name >>> ')
-user_age =input ('Please, enter your age >>> ')
-result = 'My name is ' + user_name +", I am " + user_age + ' years old' + smile_footprint
+surname = input('Введите фамилию : ').upper()
 
-print (result)
+result = 'Здарова,' + name + surname + ',а ты знал,что твое имя состоит из 6 букв ?'
+
+print(result)
