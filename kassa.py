@@ -39,9 +39,10 @@ print(printing_template.format(item_2_title, item_2_quantity, item_2_zina, item_
 print('~' * 80)
 print(printing_template.format(
     'ВСЬОГО'.ljust(20),
+
     item_1_quantity + item_2_quantity,
     'x',
-    item_1_total_cost_right_format + item_1_total_cost_right_format
+    item_1_total_cost_right_format + item_2_total_cost_right_format
     )
 )
 print(datetime.now().strftime('%d-%m-%Y %H:%M:%S').rjust(80))
