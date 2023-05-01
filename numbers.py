@@ -1,6 +1,5 @@
 from math import pi as pi
-
-R = float(input("Pleas enter the radius of the sphere:"))
-V = (4 / 3) * pi * R ** 3
-
-print(round(V, 3))
+enter = input("Pleas enter the radius of the sphere:")
+v = 4 / 3 * pi * float(enter)** 3
+around = round(v,2)
+print(f"Volume coolies: {around}")
