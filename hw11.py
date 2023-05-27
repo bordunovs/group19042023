@@ -1,3 +1,4 @@
+from pprint import pprint
 student = {
     'Ivan Petrov': {
         'Mail': 'Ivan@gmail.com',
@@ -40,8 +41,8 @@ for name, info in student.items():
 
 # Print the list of top students
 print("List of top students:")
-for s in top_students:
-    print(f"{s['First name']} {s['Last name']}: {s['Average score']}")
+for students in top_students:
+    print(f"{students['First name']} {students['Last name']}: {students['Average score']}")
 total_score = 0
 num_students = 0
 for info in student.values():
