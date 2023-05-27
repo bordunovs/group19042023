@@ -41,7 +41,5 @@ def test_get_unique_sorted_elements_dict():
 
 def test_get_unique_sorted_elements_empty():
     assert get_unique_sorted_elements([]) == ()
-if __name__ == '__main__':
-    pytest.main()
 
 
