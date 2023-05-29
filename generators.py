@@ -37,21 +37,3 @@ print(next(month))
 print(next(month))
 print(next(month))
 
-#generator = get_monts()
-
-
-# for monts in range(10):
-#     month = next(generator)
-#     print(month)
-
-# Виведе:
-# січень
-# лютий
-# березень
-# квітень
-# травень
-# червень
-# липень
-# серпень
-# вересень
-# жовтень
