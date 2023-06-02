@@ -50,18 +50,20 @@ for info in student.values():
 
 group_average_score = total_score / num_students
 print(f"Group average score: {group_average_score:.2f}")
-new_student = {
+student = {
 
-'Mail': 'Golovachlena@gmail.com',
-'Age': 22,
-'Phone number': None,
-'Average score': 96.2
+         'Mail': 'Geka@gmail.com',
+         'Age': 16,
+         'Phone number': None,
+         'Average score': 64.5
 
 }
+ # student_number = len(student)
+ # print(student)
 
-if new_student['Phone number'] is None:
-    new_student['Phone number parents'] = '+380998887766'
-print('Phone number parents', new_student)
+if student['Phone number']is None:
+    student['Phone number parents'] = '+380998887766'
+print(student)
 
 
 
