@@ -17,17 +17,14 @@ class Car:
         return current_year - self.year
 
 
-# Створення екземплярів автомобілів
 car1 = Car("Audi", "A4", 2019, 50000, 8.5)
 car2 = Car("BMW", "X5", fuel_consumption=10.2)
 car3 = Car("Mercedes-Benz", "E-Class", 2017, 80000)
 
-# Виведення інформації про автомобілі
 print(car1)
 print(car2)
 print(car3)
 
-# Використання проперті методу age
 print(f"Вік автомобіля {car1.manufacturer} {car1.model}: {car1.age} років")
 print(f"Вік автомобіля {car2.manufacturer} {car2.model}: {car2.age} років")
 print(f"Вік автомобіля {car3.manufacturer} {car3.model}: {car3.age} років")
