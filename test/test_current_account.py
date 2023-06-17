@@ -1,3 +1,6 @@
+from account_1 import Account, AccountType
+import pytest
+
 class TestCurrentAccount:
     @pytest.fixture
     def current_account(self):
@@ -15,9 +18,8 @@ class TestCurrentAccount:
         assert current_account.withdraw(50) is True
         assert current_account.get_balance() == 50
 
-    def test_withdraw_insufficient_balance(self, current_account):
+    def test_withdraw_sufficient_balance(self, current_account):
         current_account.deposit(100)
         assert current_account.withdraw(150) is False
         assert current_account.get_balance() == 100
-
 

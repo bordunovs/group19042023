@@ -1,3 +1,6 @@
+from account_1 import Account, AccountType
+import pytest
+
 class TestDepositAccount:
     @pytest.fixture
     def deposit_account(self):
